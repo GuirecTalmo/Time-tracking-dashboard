@@ -86,7 +86,7 @@ const app = {
 
     const previoustime = cloneTemplate.querySelector('.previous');
  
-    previoustime.textContent = 'Last week - ' + data.timeframes.daily.previous + 'hrs';
+    previoustime.textContent = 'Last day - ' + data.timeframes.daily.previous + 'hrs';
 
     document.querySelector('.right_container').append(cloneTemplate);
 
