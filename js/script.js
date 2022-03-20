@@ -116,39 +116,39 @@ const app = {
        switch (element.id) {
           case 'Work':
             const worktime = element.querySelector('.hours');
-            worktime.textContent = data[0].timeframes.daily.current;
+            worktime.textContent = data[0].timeframes.daily.current + 'hrs';
             const workprevioustime = element.querySelector('.previous');
-            workprevioustime.textContent = 'Last week - ' + data[0].timeframes.daily.previous;
+            workprevioustime.textContent = 'Last day - ' + data[0].timeframes.daily.previous;
           break;
           case 'Play':
             const playtime = element.querySelector('.hours');
-            playtime.textContent = data[1].timeframes.daily.current;
+            playtime.textContent = data[1].timeframes.daily.current + 'hrs';
             const playprevioustime = element.querySelector('.previous');
-            playprevioustime.textContent = 'Last week - ' + data[1].timeframes.daily.previous;
+            playprevioustime.textContent = 'Last day - ' + data[1].timeframes.daily.previous;
           break;
           case 'Study':
             const studytime = element.querySelector('.hours');
-            studytime.textContent = data[2].timeframes.daily.current;
+            studytime.textContent = data[2].timeframes.daily.current + 'hrs';
             const studyprevioustime = element.querySelector('.previous');
-            studyprevioustime.textContent = 'Last week - ' + data[2].timeframes.daily.previous;
+            studyprevioustime.textContent = 'Last day - ' + data[2].timeframes.daily.previous;
           break;
           case 'Exercise':
             const exetime = element.querySelector('.hours');
-            exetime.textContent = data[3].timeframes.daily.current;
+            exetime.textContent = data[3].timeframes.daily.current + 'hrs';
             const exeprevioustime = element.querySelector('.previous');
-            exeprevioustime.textContent = 'Last week - ' + data[3].timeframes.daily.previous;
+            exeprevioustime.textContent = 'Last day - ' + data[3].timeframes.daily.previous;
           break;
           case 'Social':
             const socialtime = element.querySelector('.hours');
-            socialtime.textContent = data[4].timeframes.daily.current;
+            socialtime.textContent = data[4].timeframes.daily.current + 'hrs';
             const socialprevioustime = element.querySelector('.previous');
-            socialprevioustime.textContent = 'Last week - ' + data[4].timeframes.daily.previous;
+            socialprevioustime.textContent = 'Last day - ' + data[4].timeframes.daily.previous;
           break;
           case 'SelfCare':
             const selftime = element.querySelector('.hours');
-            selftime.textContent = data[5].timeframes.daily.current;
+            selftime.textContent = data[5].timeframes.daily.current + 'hrs';
             const selfprevioustime = element.querySelector('.previous');
-            selfprevioustime.textContent = 'Last week - ' + data[5].timeframes.daily.previous;
+            selfprevioustime.textContent = 'Last day - ' + data[5].timeframes.daily.previous;
           break;
     }
 
@@ -167,37 +167,37 @@ const app = {
       switch (element.id) {
         case 'Work':
           const worktime = element.querySelector('.hours');
-          worktime.textContent = data[0].timeframes.weekly.current;
+          worktime.textContent = data[0].timeframes.weekly.current + 'hrs';
           const workprevioustime = element.querySelector('.previous');
           workprevioustime.textContent = 'Last week - ' + data[0].timeframes.weekly.previous;
         break;
         case 'Play':
           const playtime = element.querySelector('.hours');
-          playtime.textContent = data[1].timeframes.weekly.current;
+          playtime.textContent = data[1].timeframes.weekly.current + 'hrs';
           const playprevioustime = element.querySelector('.previous');
           playprevioustime.textContent = 'Last week - ' + data[1].timeframes.weekly.previous;
         break;
         case 'Study':
           const studytime = element.querySelector('.hours');
-          studytime.textContent = data[2].timeframes.weekly.current;
+          studytime.textContent = data[2].timeframes.weekly.current + 'hrs';
           const studyprevioustime = element.querySelector('.previous');
           studyprevioustime.textContent = 'Last week - ' + data[2].timeframes.weekly.previous;
         break;
         case 'Exercise':
           const exetime = element.querySelector('.hours');
-          exetime.textContent = data[3].timeframes.weekly.current;
+          exetime.textContent = data[3].timeframes.weekly.current + 'hrs';
           const exeprevioustime = element.querySelector('.previous');
           exeprevioustime.textContent = 'Last week - ' + data[3].timeframes.weekly.previous;
         break;
         case 'Social':
           const socialtime = element.querySelector('.hours');
-          socialtime.textContent = data[4].timeframes.weekly.current;
+          socialtime.textContent = data[4].timeframes.weekly.current + 'hrs';
           const socialprevioustime = element.querySelector('.previous');
           socialprevioustime.textContent = 'Last week - ' + data[4].timeframes.weekly.previous;
         break;
         case 'SelfCare':
           const selftime = element.querySelector('.hours');
-          selftime.textContent = data[5].timeframes.weekly.current;
+          selftime.textContent = data[5].timeframes.weekly.current + 'hrs';
           const selfprevioustime = element.querySelector('.previous');
           selfprevioustime.textContent = 'Last week - ' + data[5].timeframes.weekly.previous;
         break;
@@ -216,39 +216,39 @@ const app = {
       switch (element.id) {
         case 'Work':
           const worktime = element.querySelector('.hours');
-          worktime.textContent = data[0].timeframes.monthly.current;
+          worktime.textContent = data[0].timeframes.monthly.current + 'hrs';
           const workprevioustime = element.querySelector('.previous');
-          workprevioustime.textContent = 'Last week - ' + data[0].timeframes.monthly.previous;
+          workprevioustime.textContent = 'Last month - ' + data[0].timeframes.monthly.previous;
         break;
         case 'Play':
           const playtime = element.querySelector('.hours');
-          playtime.textContent = data[1].timeframes.monthly.current;
+          playtime.textContent = data[1].timeframes.monthly.current + 'hrs';
           const playprevioustime = element.querySelector('.previous');
-          playprevioustime.textContent = 'Last week - ' + data[1].timeframes.monthly.previous;
+          playprevioustime.textContent = 'Last month - ' + data[1].timeframes.monthly.previous;
         break;
         case 'Study':
           const studytime = element.querySelector('.hours');
-          studytime.textContent = data[2].timeframes.monthly.current;
+          studytime.textContent = data[2].timeframes.monthly.current + 'hrs';
           const studyprevioustime = element.querySelector('.previous');
-          studyprevioustime.textContent = 'Last week - ' + data[2].timeframes.monthly.previous;
+          studyprevioustime.textContent = 'Last month - ' + data[2].timeframes.monthly.previous;
         break;
         case 'Exercise':
           const exetime = element.querySelector('.hours');
-          exetime.textContent = data[3].timeframes.monthly.current;
+          exetime.textContent = data[3].timeframes.monthly.current + 'hrs';
           const exeprevioustime = element.querySelector('.previous');
-          exeprevioustime.textContent = 'Last week - ' + data[3].timeframes.monthly.previous;
+          exeprevioustime.textContent = 'Last month - ' + data[3].timeframes.monthly.previous;
         break;
         case 'Social':
           const socialtime = element.querySelector('.hours');
-          socialtime.textContent = data[4].timeframes.monthly.current;
+          socialtime.textContent = data[4].timeframes.monthly.current + 'hrs';
           const socialprevioustime = element.querySelector('.previous');
-          socialprevioustime.textContent = 'Last week - ' + data[4].timeframes.monthly.previous;
+          socialprevioustime.textContent = 'Last month - ' + data[4].timeframes.monthly.previous;
         break;
         case 'SelfCare':
           const selftime = element.querySelector('.hours');
-          selftime.textContent = data[5].timeframes.monthly.current;
+          selftime.textContent = data[5].timeframes.monthly.current + 'hrs';
           const selfprevioustime = element.querySelector('.previous');
-          selfprevioustime.textContent = 'Last week - ' + data[5].timeframes.monthly.previous;
+          selfprevioustime.textContent = 'Last month - ' + data[5].timeframes.monthly.previous;
         break;
     }
 
