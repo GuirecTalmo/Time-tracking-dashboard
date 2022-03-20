@@ -1,0 +1,130 @@
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+
+.main_container {
+
+    width: 100%;
+    display: flex;
+
+}
+
+.container_dashboard{
+
+    display: flex;
+    max-width: 1085px;
+    margin: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.left_container{
+
+    max-width: 100%;
+    background-color: #1d204b;
+    border-radius: 5%;
+    width: 90%;
+    margin: auto;
+
+}
+
+.right_container{
+
+    display: flex;
+    max-width: 90%;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+ul {
+
+    list-style: none;
+    display: inline-flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.li_options {
+    flex-wrap: inherit;
+    margin-bottom: 0;
+}
+
+.link_options {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    font-weight: 400;
+}
+
+.pseudo_user {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.under_line {
+    font-weight: lighter;
+    color: hsl(0, 0%, 86%);
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.up_card {
+    background-color: #5746ea;
+    padding: 30px;
+    padding-bottom: 10px;
+    border-radius: 5%;
+    height: 55%;
+    display: flex;
+}
+
+.avatar_user {
+    max-width: 65px;
+    max-height: 65px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 3px;
+    border-radius: 40px;
+}
+
+.profil_box {
+
+    margin-left: 1rem;
+    padding: 10px;
+}
+
+.display_card {
+    max-width: 100%;
+    border-radius: 5%;
+    max-height: 45%;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.low_display_card {
+    background-color: #1d204b;
+    height: 50%;
+    width: 100%;
+    border-radius: 5%;
+    padding: 30px;
+    margin-top: 35px;
+}
+
+.display_category {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+}

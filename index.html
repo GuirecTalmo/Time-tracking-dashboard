@@ -1,80 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+
   <title>Frontend Mentor | Time tracking dashboard</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  Report for
-  Jeremy Robson
+  <main class="main_container">
+    <div class="container_dashboard">
 
-  Daily
-  Weekly
-  Monthly
+      <div class="left_container">
+        <div class="up_card">
+          <img class="avatar_user" src="images/image-jeremy.png" alt="avatar_user">
+          <div id="profil" class="profil_box">
+            <p class="under_line">Report for</p>
+            <h1 class="pseudo_user">Jeremy Bald</h1>
+          </div>
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+        </div>
+        <div class="low_card">
+          <ul>
+            <li class="li_options"><button id="daily" value="daily" class="link_options" href="/#">Daily</button></li>
+            <li class="li_options"><button id="weekly" value="weekly" class="link_options" href="/#">Weekly</button></li>
+            <li class="li_options"><button id="monthly" value="monthly" class="link_options" href="/#">Monthly</button></li>
+          </ul>
+        </div>
+      </div>
 
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
+      <div class="right_container">
 
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
+        <!-- TEMPLATE CARD -->
+        <template id="templateCards">
 
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
+        <div id="" class="display_card">
+          <div class="low_display_card">
+            <div class="display_category">
+              <p class="category"></p>
+              <span><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon_svg" viewbox="0 0 16 16">
+                  <path
+                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                </svg>
+              </span>
+            </div>
+            <h2 class="hours">
+              <!-- daily -->
+            </h2>
+            <p class="previous">
+              <!-- daily -->
+            </p>
+          </div>
+        </div>
 
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
+        </template>
 
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
+         <!-- END TEMPLATE CARD -->
+      </div>
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    </div>
+
+  </main>
+
+  <script src="./js/script.js"></script>
 </body>
+
 </html>
