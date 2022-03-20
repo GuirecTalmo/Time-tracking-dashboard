@@ -82,11 +82,11 @@ const app = {
 
     const currenttime = cloneTemplate.querySelector('.hours');
 
-    currenttime.textContent = data.timeframes.daily.current;
+    currenttime.textContent = data.timeframes.daily.current + 'hrs';
 
     const previoustime = cloneTemplate.querySelector('.previous');
  
-    previoustime.textContent = 'Last week - ' + data.timeframes.daily.previous;
+    previoustime.textContent = 'Last week - ' + data.timeframes.daily.previous + 'hrs';
 
     document.querySelector('.right_container').append(cloneTemplate);
 
