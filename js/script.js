@@ -10,7 +10,7 @@ const app = {
     //fetch => data
 
     for (const btn of btnHourGlass) {
-      btn.addEventListener("click", app.changeTime);
+      btn.addEventListener("click", app.changeCardInDom);
     }
   },
 
