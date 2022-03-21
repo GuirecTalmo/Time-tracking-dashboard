@@ -163,7 +163,10 @@ textarea:focus, input:focus{
 
 .low_card {
 
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .up_card {
@@ -267,7 +270,8 @@ textarea:focus, input:focus{
 .previous{
 
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 500;
+    color: #a2b0ffd7;
 }
 
 #Work{
